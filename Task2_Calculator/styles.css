@@ -1,0 +1,92 @@
+*{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;}
+body{
+  height:100vh;
+  width:100%;
+}
+button{
+background-color: rgba(255, 255, 255, 0.242);
+width: 75px;
+height: 75px;
+border-radius: 50%;
+color: white;
+font-size: 2rem; 
+cursor:pointer;
+font-weight: 450;
+border: none;
+}
+
+.oper:hover {
+background-color: #ffaa33;
+}
+.func:hover{
+background-color:rgba(214, 205, 205, 0.721) ;
+}
+.num:hover{
+background-color: #717171a6;
+}
+.span-two {
+grid-column: span 2;
+border-radius: 35px;
+width: 100%;
+}
+#numb{
+display: flex;
+justify-content:flex-end;
+padding: 25px;
+font-size: 2.5rem;
+background: linear-gradient(145deg, #2c2c2c, #3a3a3a);
+color: white;
+height: 80px;
+border-top-right-radius: 30px;
+border-top-left-radius: 30px;
+font-weight: 300;
+width:320px
+}
+.oper{
+  background-color: #ff9500;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.func{
+background: grey;
+}
+.content{
+  justify-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.calci{
+display: grid;
+grid-template-columns: repeat(4,80px);
+background-color: black;
+border-bottom-right-radius: 25px;
+border-bottom-left-radius: 25px;
+justify-items: center;
+color: white;
+text-align: center;
+padding: 10px;
+gap:10px;
+width: 350px;
+}
+.foot {
+  background-color: #ff9500;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  width: 100%;
+  height: auto;
+  padding: 10px;
+}
+#heading{
+  width:100%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+ margin: 0px;
+ padding: 10px;
+color: rgb(0, 0, 0);
+}

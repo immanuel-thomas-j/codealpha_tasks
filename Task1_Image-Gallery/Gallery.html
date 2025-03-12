@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Simple Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>My Simple Gallery</h1>
+    <br>
+    <div class="overlay"></div>
+    <div class="popup">
+        <button class="close" onclick="cl()">x</button>
+        <br>
+        <img id="ima"></img>
+    </div>
+    <div id="gallery">
+        <div class="ele" onclick="show(event)">
+            <img src="Images/sunset-7760143_1280.jpg">
+            <p>Beautiful sunset</p>
+        </div>
+        <div class="ele" onclick="show(event)">
+            <img src="Images/terraces-7858669_1280.jpg">
+            <p>Terraced fields</p>
+        </div>
+        <div class="ele" onclick="show(event)">
+            <img src="Images/water-8100724_1280.jpg">
+            <p>Serene water</p>
+        </div>
+        <div class="ele" onclick="show(event)">
+            <img src="Images/mountains-3693081_1280.jpg">
+            <p>Sunlit mountains</p>
+        </div>
+        <div class="ele" onclick="show(event)">
+            <img src="Images/flowers-8763039_1280.jpg">
+            <p>Vibrant flowers</p>
+        </div>
+        <div class="ele" onclick="show(event)">
+            <img src="Images/mountain-8369262_1280.jpg">
+            <p>Majestic mountain</p>
+        </div>
+        <div class="ele" onclick="show(event)">
+            <img src="Images/mountain-8451604_1280.jpg">
+            <p>Snowy peak</p>
+        </div>
+        <div class="ele" onclick="show(event)">
+            <img src="Images/mountains-1761292_1280.jpg">
+            <p>Mountain range</p>
+        </div> 
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
